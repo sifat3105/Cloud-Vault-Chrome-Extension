@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Remote Download Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Remote Downloader</h1>
+    <div class="settings">
+      <label for="serverUrl">Server URL:</label>
+      <input type="text" id="serverUrl" value="https://a61f-103-43-151-44.ngrok-free.app/api/upload/">
+      <button id="saveSettings">Save</button>
+    </div>
+    <div class="status">
+      <p>Last download: <span id="lastDownload">None</span></p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
